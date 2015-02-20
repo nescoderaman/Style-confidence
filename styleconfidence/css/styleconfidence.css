@@ -1,0 +1,207 @@
+
+/* =============================================================
+   Custom STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+     background-color:white;
+}
+/*top nev background colour*/
+.navbar {
+
+     background-color:white;
+     border: none;
+
+}
+
+.navbar-collapse{
+    margin-top:20px;
+}
+.container{
+ max-width:1100px;
+}
+.pad-top {
+    padding-top:60px;
+}
+.text-center {
+    text-align:center;
+}
+/*for social media icon*/
+i.fa {
+    padding:6px;
+}
+/*for social media icon end here*/
+section {
+    padding-top:6px;
+}
+
+p {
+    font-weight:300;
+    line-height:30px;
+}
+.pad-row {
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.pad-bottom {
+    padding-bottom:50px;
+}
+
+/* NAVBAR STYLE */
+
+
+.navbar-inverse .navbar-nav > li > a {
+color: #F70707;
+}
+/*back ground colour of top menu.*/
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #F76227;
+
+}
+
+
+
+
+
+
+
+
+/* logo style*/
+.image{
+max-height:90px;
+width:90px;
+margin-top:-15px;
+}
+/* slider STYLE*/
+.back-light {
+    background-color:rgba(0, 0, 0, 0.30);
+    padding:10px;
+
+}
+/* for top menue mouse over dropdown*/
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;
+
+}
+
+
+
+/* home page top menu and submanu style*/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+/* home page top menu and submanu style end here*/
+
+.mark {
+    padding: 12px 0;background:none;
+}
+
+
+/* index page after slider*/
+
+.white {
+    color: white;
+}
+
+.btn-lg {
+    font-size: 38px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.box > .icon {
+    text-align: center;
+    position: relative;
+}
+
+.box > .icon > .image {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    border: 7px solid white;
+    line-height: 88px;
+    border-radius: 50%;
+    background: #F1634F;
+    vertical-align: middle;
+}
+
+.box > .icon:hover > .image {
+    border: 2px solid black;
+}
+
+.box > .icon > .image > i {
+    font-size: 40px !important;
+    color: #fff !important;
+}
+
+.box > .icon:hover > .image > i {
+    color: white !important;
+}
+
+.box > .icon > .info {
+    margin-top: -24px;
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid #e0e0e0;
+    padding: 15px 0 10px 0;
+}
+
+    .box > .icon > .info > h3.title {
+        color: #222;
+        font-weight: 500;
+    }
+
+    .box > .icon > .info > p {
+        color: #666;
+        line-height: 1.5em;
+        margin: 20px;
+    }
+
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a {
+    color: #222;
+}
+
+.box > .icon > .info > .more a {
+    color: #222;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.box > .icon:hover > .info > .more > a {
+    color: #000;
+    padding: 6px 8px;
+    border-bottom: 4px solid black;
+}
+
+.box .space {
+    height: 30px;
+/* end her*/
